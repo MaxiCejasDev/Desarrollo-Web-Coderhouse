@@ -41,6 +41,7 @@
         .grid__item-tienda--carousel{
             grid-column: 1 / 2;
             grid-row: 3 / 5;
+            overflow: hidden;
             .carousel__tienda{
                 height: 100%;
                 .carousel-inner{
