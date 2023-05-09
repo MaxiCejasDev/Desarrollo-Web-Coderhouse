@@ -1,0 +1,178 @@
+@import '../base/variables';
+@import '../base/listas';
+
+/*Extend*/
+@import '../base/extend';
+
+
+
+.main__shop-creatina{
+    background-color: $bg-color;
+}
+.product__creatina-container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-gap: 10px;
+                overflow: hidden;
+                width: 100%;
+                height: 100vh;
+}
+.product__item-creatina1{
+    @extend %product;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.product__item-creatina2{
+    @extend %product;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.product__item-creatina3{
+    @extend %product;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+.product__item-creatina4{
+    @extend %product;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.product__item-creatina5{
+    @extend %product;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.product__item-creatina6{
+    @extend %product;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.creatina__img-container1{
+    @extend %img-container;
+}
+.creatina__img-container2{
+    @extend %img-container;
+}
+.creatina__img-container3{
+    @extend %img-container;
+}
+.creatina__img-container4{
+    @extend %img-container;
+}
+.creatina__img-container5{
+    @extend %img-container;
+}
+.creatina__img-container6{
+    @extend %img-container;
+}
+.creatina__img1{
+    @extend %img-tienda;
+}
+.creatina__img2{
+    @extend %img-tienda;
+}
+.creatina__img3{
+    @extend %img-tienda;
+}
+.creatina__img4{
+    @extend %img-tienda;
+}
+.creatina__img5{
+    @extend %img-tienda;
+}
+.creatina__img6{
+    @extend %img-tienda;
+    width: 150px;
+}
+.creatina__text1{
+    @extend %text-product;
+}
+.creatina__text2{
+    @extend %text-product;
+}
+.creatina__text3{
+    @extend %text-product;
+}
+.creatina__text4{
+    @extend %text-product;
+}
+.creatina__text5{
+    @extend %text-product;
+}
+.creatina__text6{
+    @extend %text-product;
+}
+
+@media screen and (max-width: $breakpoint-md){
+        .product__creatina-container{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            .product__item-creatina1{
+                        grid-column: 1 / 2;
+                        grid-row: 1 / 2;
+            }
+            .product__item-creatina2{
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+            }
+            .product__item-creatina3{
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+            .product__item-creatina4{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            .product__item-creatina5{
+                grid-column: 1 / 2;
+                        grid-row: 3 / 4;
+            }
+            .product__item-creatina6{
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+            }
+        }
+}
+@media screen and (max-width: $breakpoint-sm){
+            .product__creatina-container{
+                height: 240vh;
+                box-shadow: none;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+                .product__item-creatina1{
+                    grid-column: 1 / 2;
+                    grid-row: 1 / 2;
+                }
+                .product__item-creatina2{
+                    grid-column: 1 / 2;
+                    grid-row: 2 / 3;
+                }
+                .product__item-creatina3{
+                    grid-column: 1 / 2;
+                    grid-row: 3 / 4;
+                }
+                .product__item-creatina4{
+                    grid-column: 1 / 2;
+                    grid-row: 4 / 5;
+                }
+                .product__item-creatina5{
+                    grid-column: 1 / 2;
+                    grid-row: 5 / 6;
+                }
+                .product__item-creatina6{
+                    grid-column: 1 / 2;
+                    grid-row: 6 / 7;
+                }
+            }
+        }
+@media screen and (min-width: 350px) and (max-width: 380px){
+            .product__creatina-container{
+                height: 280vh;
+            }
+        }
+@media screen and (max-width: 340px){
+                .product__creatina-container{
+                    height: 350vh;
+                }
+            }

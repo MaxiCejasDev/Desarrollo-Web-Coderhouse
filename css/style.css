@@ -1,0 +1,1744 @@
+/*NAV BAR*/
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+/*ICONO NAV BAR BLANCO*/
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/*NAV BAR NEGRO*/
+.navbar__color {
+  background-color: #000;
+}
+
+#nav__link-inicio {
+  color: #fff;
+  font-family: D-DIN-Bold;
+  font-size: 0.9rem;
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  position: relative;
+}
+
+.nav__effect::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 7px;
+  width: 0%;
+  background-color: #fff;
+  height: 1px;
+  transition-duration: 0.5s;
+}
+
+.nav__effect:hover::after {
+  width: 100%;
+}
+
+/*BLANCO*/
+#nav__white {
+  color: #000;
+  font-family: D-DIN-Bold;
+  font-size: 0.9rem;
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  position: relative;
+}
+
+/*ICONO NAV-BAR-NEGRO*/
+#navbar__white-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/*EFECTO*/
+.nav__white-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 7px;
+  width: 0%;
+  height: 1px;
+  background-color: #000;
+  transition-duration: 0.5s;
+}
+
+.nav__white-link:hover::after {
+  width: 100%;
+}
+
+/*HEADER*/
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+.header__inicio {
+  height: 100vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/inicio/inicio.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header__inicio .hero__inicio {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.header__inicio .hero__inicio .hero__inicio-container .row .col-12 .hero__inicio-title {
+  font-size: 7rem;
+  font-family: D-DIN-Bold;
+  text-align: center;
+}
+.header__inicio .hero__inicio .hero__inicio-container .row .col-12 .hero__inicio-eslogan {
+  font-family: D-DIN;
+  font-weight: 0.8rem;
+  text-align: center;
+}
+.header__inicio .hero__inicio .row__header-inicio {
+  position: absolute;
+  bottom: -70px;
+  animation-name: row;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(53deg) brightness(104%) contrast(101%);
+}
+@keyframes row {
+  0% {
+    bottom: -70px;
+  }
+  50% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: -70px;
+  }
+}
+
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+.header__asesoria {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/asesoria/asesoria.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header__asesoria .hero__asesoria .container-fluid .hero__asesoria-text--container {
+  height: 70vh;
+}
+.header__asesoria .hero__asesoria .container-fluid .hero__asesoria-text--container .col-12 .hero__asesoria-title {
+  font-size: 7rem;
+  color: #fff;
+  font-family: D-DIN-Bold;
+  text-align: center;
+}
+
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+.header__contact {
+  background-color: #f1f2ef;
+}
+.header__contact .hero__contact .form__container {
+  display: flex;
+  justify-content: center;
+}
+.header__contact .hero__contact .form__container .img__form-container {
+  height: 500px;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: -4px 1px 10px 1px rgba(0, 0, 0, 0.34);
+}
+.header__contact .hero__contact .form__container .img__form-container .img__form {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+.header__contact .hero__contact .form__container .form {
+  box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.65);
+  height: 500px;
+}
+.header__contact .hero__contact .form__container .form .form__logo-container {
+  display: flex;
+  justify-content: center;
+}
+.header__contact .hero__contact .form__container .form .form__input-container1 {
+  display: flex;
+  justify-content: center;
+}
+.header__contact .hero__contact .form__container .form .form__input-container1 .form__input {
+  width: 80%;
+  height: 50px;
+  border: 2px solid #000;
+  font-family: D-DIN;
+  color: #000;
+  padding-left: 10px;
+  font-size: 1rem;
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.65);
+}
+.header__contact .hero__contact .form__container .form .form__input-container1 .form__input::placeholder {
+  color: #000;
+}
+.header__contact .hero__contact .form__container .form .form__input-container2 {
+  display: flex;
+  justify-content: center;
+}
+.header__contact .hero__contact .form__container .form .form__input-container2 .form__input {
+  width: 80%;
+  height: 50px;
+  border: 2px solid #000;
+  font-family: D-DIN;
+  color: #000;
+  padding-left: 10px;
+  font-size: 1rem;
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.65);
+}
+.header__contact .hero__contact .form__container .form .form__input-container2 .form__input::placeholder {
+  color: #000;
+}
+.header__contact .hero__contact .form__container .form .form__input-container3 {
+  display: flex;
+  justify-content: center;
+}
+.header__contact .hero__contact .form__container .form .form__input-container3 .form__input {
+  width: 80%;
+  height: 50px;
+  border: 2px solid #000;
+  font-family: D-DIN;
+  color: #000;
+  padding-left: 10px;
+  font-size: 1rem;
+  box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.65);
+}
+.header__contact .hero__contact .form__container .form .form__input-container3 .form__input::placeholder {
+  color: #000;
+}
+.header__contact .hero__contact .form__container .form .dropdown__container .dropdown {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
+}
+.header__contact .hero__contact .form__container .form .form__button-container {
+  display: flex;
+  justify-content: center;
+}
+.header__contact .hero__contact .form__container .form .form__button-container .form__button {
+  padding: 10px 80px;
+  font-family: D-DIN-Bold;
+  color: #fff;
+  font-size: 1.3rem;
+  background-color: #000;
+  border: none;
+  transition: 0.6s;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
+}
+.header__contact .hero__contact .form__container .form .form__button-container .form__button:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .header__contact .hero__contact .form__container .img__form-container {
+    display: none;
+  }
+  .header__contact .hero__contact .form__container .form {
+    border: 1px solid #000;
+  }
+  .header__contact .hero__contact .form__container .form .form__button-container .form__button {
+    padding: 10px 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header__contact .hero__contact .form__container .form .form__input-container1 .form__input {
+    font-size: 0.8rem;
+  }
+  .header__contact .hero__contact .form__container .form .form__input-container2 .form__input {
+    font-size: 0.8rem;
+  }
+  .header__contact .hero__contact .form__container .form .form__input-container3 .form__input {
+    font-size: 0.8rem;
+  }
+  .header__contact .hero__contact .form__container .form .dropdown__container .dropdown {
+    font-size: 0.8rem;
+  }
+  .header__contact .hero__contact .form__container .form .form__button-container .form__button {
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+}
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+.header__metodo {
+  background-color: #f1f2ef;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .hero__metodo-title {
+  font-size: 2.5rem;
+  font-family: D-DIN-Bold;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .hero__metodo-subtitle {
+  font-size: 1.1rem;
+  font-family: D-DIN;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .cta .hero__button-uno {
+  font-family: D-DIN-Bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
+  background-color: #000;
+  color: #fff;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .cta .hero__button-uno:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .cta .hero__button-dos {
+  font-family: D-DIN-Bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .cta .hero__button-dos:hover {
+  background-color: #000;
+  color: #fff;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .hero__icon-container .hero__icon1 .fa-dumbbell {
+  font-size: 40px;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .hero__icon-container .hero__icon1 .hero__icon-subtitle {
+  font-family: D-DIN-Bold;
+  font-size: 0.8rem;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .hero__icon-container .hero__icon2 .fa-person-walking {
+  font-size: 40px;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .hero__icon-container .hero__icon2 .hero__icon-subtitle {
+  font-family: D-DIN-Bold;
+  font-size: 0.8rem;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .hero__icon-container .hero__icon3 .fa-heart-pulse {
+  font-size: 40px;
+}
+.header__metodo .hero__container .container .row .hero__metodo1 .hero__icon-container .hero__icon3 .hero__icon-subtitle {
+  font-family: D-DIN-Bold;
+  font-size: 0.8rem;
+}
+.header__metodo .hero__container .container .row .hero__metodo2 .hero__metodo-img {
+  height: 500px;
+  object-fit: cover;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
+}
+
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+.hero__tienda {
+  background-color: #000;
+}
+.hero__tienda .grid__tienda {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5px;
+  overflow: hidden;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--proteinas {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  overflow: hidden;
+  position: relative;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--proteinas .grid__item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1.5s;
+  filter: brightness(0.6);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--proteinas .grid__item-img:hover {
+  transform: scale(1.5);
+  filter: brightness(0.2);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--proteinas .tienda__text1 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 7rem;
+  font-family: D-DIN-Bold;
+  color: #fff;
+  z-index: 100;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--carousel {
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--carousel .carousel__tienda {
+  height: 100%;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--carousel .carousel__tienda .carousel-inner {
+  height: 100%;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--carousel .carousel__tienda .carousel-inner .carousel__img-container1 {
+  height: 100%;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--carousel .carousel__tienda .carousel-inner .carousel__img-container1 .grid__item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1.5s;
+  filter: brightness(0.6);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--carousel .carousel__tienda .carousel-inner .carousel__img-container1 .grid__item-img:hover {
+  transform: scale(1.5);
+  filter: brightness(0.2);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--carousel .carousel__tienda .carousel-inner .carousel__img-container2 {
+  height: 100%;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--carousel .carousel__tienda .carousel-inner .carousel__img-container2 .grid__item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1.5s;
+  filter: brightness(0.6);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--carousel .carousel__tienda .carousel-inner .carousel__img-container2 .grid__item-img:hover {
+  transform: scale(1.5);
+  filter: brightness(0.2);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--creatina {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  overflow: hidden;
+  position: relative;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--creatina .grid__item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1.5s;
+  filter: brightness(0.6);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--creatina .grid__item-img:hover {
+  transform: scale(1.5);
+  filter: brightness(0.2);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--creatina .tienda__text2 {
+  position: absolute;
+  bottom: 0;
+  font-size: 3rem;
+  font-family: D-DIN-Bold;
+  color: #fff;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--otros {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  overflow: hidden;
+  position: relative;
+}
+.hero__tienda .grid__tienda .grid__item-tienda--otros .grid__item-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1.5s;
+  filter: brightness(0.6);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--otros .grid__item-img:hover {
+  transform: scale(1.5);
+  filter: brightness(0.2);
+}
+.hero__tienda .grid__tienda .grid__item-tienda--otros .tienda__text3 {
+  position: absolute;
+  bottom: 0;
+  font-size: 3rem;
+  font-family: D-DIN-Bold;
+  color: #fff;
+}
+@media screen and (max-width: 992px) {
+  .hero__tienda .grid__tienda .grid__item-tienda--proteinas .tienda__text1 {
+    font-size: 7rem;
+    bottom: 0;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--creatina .tienda__text2 {
+    bottom: 0;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--otros .tienda__text3 {
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero__tienda .grid__tienda .grid__item-tienda--proteinas .tienda__text1 {
+    bottom: 0;
+    font-size: 3rem;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--creatina .tienda__text2 {
+    bottom: 0;
+    font-size: 2rem;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--otros .tienda__text3 {
+    bottom: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero__tienda .grid__tienda .grid__item-tienda--proteinas .tienda__text1 {
+    bottom: 0;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--carousel {
+    grid-column: 1/3;
+    grid-row: 4/5;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--creatina {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--creatina .tienda__text2 {
+    bottom: 0;
+    font-size: 2rem;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--otros {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--otros .tienda__text3 {
+    bottom: 0;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 428px) {
+  .hero__tienda .grid__tienda .grid__item-tienda--proteinas .tienda__text1 {
+    bottom: 0;
+    font-size: 3rem;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--creatina .tienda__text2 {
+    bottom: 0;
+    font-size: 2rem;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--otros .tienda__text3 {
+    bottom: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hero__tienda .grid__tienda .grid__item-tienda--proteinas .tienda__text1 {
+    bottom: 0;
+    font-size: 3rem;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--creatina .tienda__text2 {
+    bottom: 0;
+    font-size: 2rem;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--otros .tienda__text3 {
+    bottom: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero__tienda .grid__tienda .grid__item-tienda--proteinas .tienda__text1 {
+    bottom: 0;
+    font-size: 3rem;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--creatina .tienda__text2 {
+    bottom: 0;
+    font-size: 2rem;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--otros .tienda__text3 {
+    bottom: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  .hero__tienda .grid__tienda .grid__item-tienda--proteinas .tienda__text1 {
+    bottom: 0;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--creatina .tienda__text2 {
+    bottom: 0;
+  }
+  .hero__tienda .grid__tienda .grid__item-tienda--otros .tienda__text3 {
+    bottom: 0;
+    text-align: center;
+  }
+}
+
+/*MAIN*/
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+.asesoria__main {
+  background-color: #f1f2ef;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item1 .asesoria__info-img {
+  width: 100px;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item1 .asesoria__info-title {
+  font-size: 1.3rem;
+  font-family: D-DIN-Bold;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item1 .asesoria__info-paragraph {
+  font-family: D-DIN;
+  font-size: 1rem;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item2 .asesoria__info-img {
+  width: 100px;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item2 .asesoria__info-title {
+  font-size: 1.3rem;
+  font-family: D-DIN-Bold;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item2 .asesoria__info-paragraph {
+  font-family: D-DIN;
+  font-size: 1rem;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item3 .asesoria__info-img {
+  width: 100px;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item3 .asesoria__info-title {
+  font-size: 1.3rem;
+  font-family: D-DIN-Bold;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item3 .asesoria__info-paragraph {
+  font-family: D-DIN;
+  font-size: 1rem;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item4 .asesoria__info-img {
+  width: 100px;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item4 .asesoria__info-title {
+  font-size: 1.3rem;
+  font-family: D-DIN-Bold;
+}
+.asesoria__main .asesoria__info .asesoria__info-items--container .asesoria__info-item4 .asesoria__info-paragraph {
+  font-family: D-DIN;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container {
+  background-color: #f1f2ef;
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item1 {
+  display: flex;
+  justify-content: center;
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item1 .plan__img {
+  width: 380px;
+  height: 480px;
+  object-fit: cover;
+  filter: brightness(0.85);
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__title {
+  font-family: D-DIN-Bold;
+  font-size: 2rem;
+  text-align: center;
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__price {
+  font-family: D-DIN-Bold;
+  font-size: 1.3rem;
+  color: #ff0000;
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__description {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__text {
+  font-family: D-DIN;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__button-container .plan__button {
+  padding: 20px 120px;
+  background-color: #000;
+  color: #fff;
+  font-family: D-DIN-Bold;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+.asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__button-container .plan__button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item1 {
+  background-color: #D9D9D9;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item1 .beneficios__title {
+  text-align: center;
+  font-family: D-DIN-Bold;
+  font-size: 2rem;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 1fr;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional1 .beneficios__text {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional2 .beneficios__text {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional3 .beneficios__text {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item1 {
+  display: flex;
+  justify-content: center;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item1 .plan__img {
+  width: 380px;
+  height: 480px;
+  object-fit: cover;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__title {
+  font-family: D-DIN-Bold;
+  font-size: 2rem;
+  text-align: center;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__price {
+  font-family: D-DIN-Bold;
+  font-size: 1.3rem;
+  color: #ff0000;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__description {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__text {
+  font-family: D-DIN;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__button-container .plan__button {
+  padding: 20px 120px;
+  background-color: #000;
+  color: #fff;
+  font-family: D-DIN-Bold;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+.asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__button-container .plan__button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item1 {
+  background-color: #D9D9D9;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item1 .beneficios__title {
+  text-align: center;
+  font-family: D-DIN-Bold;
+  font-size: 2rem;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia1 .beneficios__text {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia2 .beneficios__text {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia3 .beneficios__text {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .power__container .grid__power {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+.asesoria__main .plan__container .power__container .grid__power .grid__power-item1 {
+  display: flex;
+  justify-content: center;
+}
+.asesoria__main .plan__container .power__container .grid__power .grid__power-item1 .plan__img {
+  width: 380px;
+  height: 480px;
+  object-fit: cover;
+}
+.asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__title {
+  font-family: D-DIN-Bold;
+  font-size: 2rem;
+  text-align: center;
+}
+.asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__price {
+  font-family: D-DIN-Bold;
+  font-size: 1.3rem;
+  color: #ff0000;
+}
+.asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__description {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__text {
+  font-family: D-DIN;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__button-container .plan__button {
+  padding: 20px 120px;
+  background-color: #000;
+  color: #fff;
+  font-family: D-DIN-Bold;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+.asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__button-container .plan__button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item1 {
+  background-color: #D9D9D9;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item1 .beneficios__title {
+  text-align: center;
+  font-family: D-DIN-Bold;
+  font-size: 2rem;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power1 .beneficios__text {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power2 .beneficios__text {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power3 .beneficios__text {
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+@media screen and (max-width: 992px) {
+  .asesoria__main .plan__container .funcional__container .grid__funcional {
+    grid-template-columns: 1fr;
+    grid-template-rows: 520px 1fr;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia {
+    grid-template-columns: 1fr;
+    grid-template-rows: 520px 1fr;
+  }
+  .asesoria__main .plan__container .power__container .grid__power {
+    grid-template-columns: 1fr;
+    grid-template-rows: 520px 1fr;
+  }
+}
+@media screen and (max-width: 428px) {
+  .asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item1 .plan__img {
+    width: 280px;
+  }
+  .asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__button-container .plan__button {
+    padding: 15px 80px;
+    font-size: 1rem;
+  }
+  .asesoria__main .plan__container .funcional__container .beneficios__funcional-grid {
+    grid-template-rows: 50px 1fr;
+  }
+  .asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item1 .beneficios__title {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional1 .beneficios__text {
+    font-size: 0.8rem;
+  }
+  .asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional1 .beneficios__img {
+    width: 40px;
+  }
+  .asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional2 .beneficios__text {
+    font-size: 0.8rem;
+  }
+  .asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional2 .beneficios__img {
+    width: 40px;
+  }
+  .asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional3 .beneficios__text {
+    font-size: 0.8rem;
+  }
+  .asesoria__main .plan__container .funcional__container .beneficios__funcional-grid .beneficios__funcional-item2 .beneficios__funcional3 .beneficios__img {
+    width: 40px;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item1 .plan__img {
+    width: 280px;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__button-container .plan__button {
+    padding: 15px 80px;
+    font-size: 1rem;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid {
+    grid-template-rows: 50px 1fr;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item1 .beneficios__title {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia1 .beneficios__text {
+    font-size: 0.8rem;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia1 .beneficios__img {
+    width: 40px;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia2 .beneficios__text {
+    font-size: 0.8rem;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia2 .beneficios__img {
+    width: 40px;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia3 .beneficios__text {
+    font-size: 0.8rem;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .beneficios__hipertrofia-grid .beneficios__hipertrofia-item2 .beneficios__hipertrofia3 .beneficios__img {
+    width: 40px;
+  }
+  .asesoria__main .plan__container .power__container .grid__power .grid__power-item1 .plan__img {
+    width: 280px;
+  }
+  .asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__button-container .plan__button {
+    padding: 15px 80px;
+    font-size: 1rem;
+  }
+  .asesoria__main .plan__container .power__container .beneficios__power-grid {
+    grid-template-rows: 50px 1fr;
+  }
+  .asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item1 .beneficios__title {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power1 .beneficios__text {
+    font-size: 0.8rem;
+  }
+  .asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power1 .beneficios__img {
+    width: 40px;
+  }
+  .asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power2 .beneficios__text {
+    font-size: 0.8rem;
+  }
+  .asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power2 .beneficios__img {
+    width: 40px;
+  }
+  .asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power3 .beneficios__text {
+    font-size: 0.8rem;
+  }
+  .asesoria__main .plan__container .power__container .beneficios__power-grid .beneficios__power-item2 .beneficios__power3 .beneficios__img {
+    width: 40px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__button-container .plan__button {
+    padding: 15px 50px;
+    font-size: 1rem;
+  }
+  .asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__button-container .plan__button {
+    padding: 15px 50px;
+    font-size: 1rem;
+  }
+  .asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__button-container .plan__button {
+    padding: 15px 50px;
+    font-size: 1rem;
+  }
+}
+
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+.main__inicio {
+  background-color: #f1f2ef;
+  overflow: hidden;
+}
+.main__inicio .main__inicio-info {
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+.main__inicio .main__inicio-info .main__info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.main__inicio .main__inicio-info .main__info-container .main__info-img {
+  margin-top: 20px;
+  width: 6rem;
+  height: 6rem;
+}
+.main__inicio .main__inicio-info .main__info-container .main__info-text {
+  margin-top: 10px;
+  text-align: center;
+  font-family: D-DIN-Bold;
+  font-size: 1rem;
+}
+.main__inicio .about__container {
+  margin-top: 100px;
+}
+.main__inicio .about__container .about .about__uno-img .about__img-container .about__img {
+  min-height: 500px;
+  max-height: 650px;
+  min-width: 100%;
+  max-width: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
+}
+.main__inicio .about__container .about .about__uno-text .about__text1 {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50%;
+  max-height: 100%;
+  border-bottom: 1px solid #000;
+}
+.main__inicio .about__container .about .about__uno-text .about__text1 .about__title {
+  font-size: 3rem;
+  font-family: D-DIN-Bold;
+}
+.main__inicio .about__container .about .about__uno-text .about__text1 .about__paragraph {
+  font-size: 1rem;
+  font-family: D-DIN;
+}
+.main__inicio .about__container .about .about__uno-text .about__text2 {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.main__inicio .about__container .about .about__uno-text .about__text2 .about__subtitle {
+  font-size: 1rem;
+  font-family: D-DIN-Bold;
+  width: 100%;
+}
+.main__inicio .about__container .about .about__uno-text .about__text2 .about__paragraph {
+  font-size: 1rem;
+  font-family: D-DIN;
+}
+.main__inicio .container .about .about__dos-text .about__text3 {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50%;
+  max-height: 100%;
+  border-bottom: 1px solid #000;
+}
+.main__inicio .container .about .about__dos-text .about__text3 .about__subtitle {
+  font-size: 1rem;
+  font-family: D-DIN-Bold;
+  width: 100%;
+}
+.main__inicio .container .about .about__dos-text .about__text3 .about__paragraph {
+  font-size: 1rem;
+  font-family: D-DIN;
+}
+.main__inicio .container .about .about__dos-text .about__text4 {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50%;
+  max-height: 100%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.main__inicio .container .about .about__dos-text .about__text4 .about__subtitle {
+  font-size: 1rem;
+  font-family: D-DIN-Bold;
+  width: 100%;
+}
+.main__inicio .container .about .about__dos-text .about__text4 .about__paragraph {
+  font-size: 1rem;
+  font-family: D-DIN;
+}
+.main__inicio .container .about .about__dos-img .about__img-container .about__img {
+  min-height: 500px;
+  max-height: 650px;
+  min-width: 100%;
+  max-width: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
+}
+
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+.main__metodo {
+  background-color: #f1f2ef;
+}
+.main__metodo .main__metodo-info--container .main__metodo-info {
+  padding-top: 50px;
+  color: #000;
+  min-height: 220px;
+  border-bottom: 4px solid #000;
+}
+.main__metodo .main__metodo-info--container .main__metodo-info .metodo__info1 .main__metodo-info--subtitle {
+  font-family: D-DIN-Bold;
+  font-size: 2rem;
+  text-align: center;
+}
+.main__metodo .main__metodo-info--container .main__metodo-info .metodo__info2 .main__metodo-info--paragraph {
+  font-size: 1rem;
+  text-align: center;
+  font-family: D-DIN;
+}
+.main__metodo .main__metodo-container {
+  color: #000;
+}
+.main__metodo .main__metodo-container .main__metodo-principio1 {
+  border-bottom: 3px solid #000;
+}
+.main__metodo .main__metodo-container .main__metodo-principio1 .principio__text-container1 .main__metodo-title {
+  font-family: D-DIN-Bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.main__metodo .main__metodo-container .main__metodo-principio1 .principio__text-container1 .main__metodo-paragraph {
+  font-family: D-DIN;
+  text-align: center;
+  font-size: 1rem;
+}
+.main__metodo .main__metodo-container .main__metodo-principio2 {
+  border-bottom: 3px solid #000;
+}
+.main__metodo .main__metodo-container .main__metodo-principio2 .principio__text-container2 .main__metodo-title {
+  font-family: D-DIN-Bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.main__metodo .main__metodo-container .main__metodo-principio2 .principio__text-container2 .main__metodo-paragraph {
+  font-family: D-DIN;
+  text-align: center;
+  font-size: 1rem;
+}
+.main__metodo .main__metodo-container .main__metodo-principio3 {
+  border-bottom: 3px solid #000;
+}
+.main__metodo .main__metodo-container .main__metodo-principio3 .principio__text-container3 .main__metodo-title {
+  font-family: D-DIN-Bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.main__metodo .main__metodo-container .main__metodo-principio3 .principio__text-container3 .main__metodo-paragraph {
+  font-family: D-DIN;
+  text-align: center;
+  font-size: 1rem;
+}
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+/*Extend*/
+/*Extend*/
+.product__item-creatina6, .product__item-creatina5, .product__item-creatina4, .product__item-creatina3, .product__item-creatina2, .product__item-creatina1, .product__item-proteina6, .product__item-proteina5, .product__item-proteina4, .product__item-proteina3, .product__item-proteina2, .product__item-proteina1 {
+  background-image: radial-gradient(circle at 50% 50%, rgb(215, 215, 215), rgb(255, 255, 255));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.creatina__img-container6, .creatina__img-container5, .creatina__img-container4, .creatina__img-container3, .creatina__img-container2, .creatina__img-container1, .proteina__img-container6, .proteina__img-container5, .proteina__img-container4, .proteina__img-container3, .proteina__img-container2, .proteina__img-container1 {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 70%;
+  width: 95%;
+}
+
+.creatina__img6, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img6, .proteina__img5, .proteina__img4, .proteina__img3, .proteina__img2, .proteina__img1 {
+  width: 200px;
+  object-fit: cover;
+}
+
+.creatina__text6, .creatina__text5, .creatina__text4, .creatina__text3, .creatina__text2, .creatina__text1, .proteina__text6, .proteina__text5, .proteina__text4, .proteina__text3, .proteina__text2, .proteina__text1 {
+  font-family: D-DIN;
+  font-size: 1rem;
+  color: #4b4b4b;
+  text-align: center;
+}
+
+.main__shop-proteina {
+  background-color: #f1f2ef;
+}
+
+.product__proteina-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .product__proteina-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .product__proteina-container .product__item-proteina1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .product__proteina-container .product__item-proteina2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .product__proteina-container .product__item-proteina3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .product__proteina-container .product__item-proteina4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .product__proteina-container .product__item-proteina5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .product__proteina-container .product__item-proteina6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+}
+@media screen and (max-width: 576px) {
+  .product__proteina-container {
+    height: 240vh;
+    box-shadow: none;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .product__proteina-container .product__item-proteina1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .product__proteina-container .product__item-proteina2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .product__proteina-container .product__item-proteina3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .product__proteina-container .product__item-proteina4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .product__proteina-container .product__item-proteina5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .product__proteina-container .product__item-proteina6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .product__proteina-container {
+    height: 280vh;
+  }
+}
+@media screen and (max-width: 340px) {
+  .product__proteina-container {
+    height: 350vh;
+  }
+}
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+/*Extend*/
+/*Extend*/
+.product__item-creatina6, .product__item-creatina5, .product__item-creatina4, .product__item-creatina3, .product__item-creatina2, .product__item-creatina1, .product__item-proteina1, .product__item-proteina2, .product__item-proteina3, .product__item-proteina4, .product__item-proteina5, .product__item-proteina6 {
+  background-image: radial-gradient(circle at 50% 50%, rgb(215, 215, 215), rgb(255, 255, 255));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.creatina__img-container6, .creatina__img-container5, .creatina__img-container4, .creatina__img-container3, .creatina__img-container2, .creatina__img-container1, .proteina__img-container1, .proteina__img-container2, .proteina__img-container3, .proteina__img-container4, .proteina__img-container5, .proteina__img-container6 {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 70%;
+  width: 95%;
+}
+
+.creatina__img6, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6 {
+  width: 200px;
+  object-fit: cover;
+}
+
+.creatina__text6, .creatina__text5, .creatina__text4, .creatina__text3, .creatina__text2, .creatina__text1, .proteina__text1, .proteina__text2, .proteina__text3, .proteina__text4, .proteina__text5, .proteina__text6 {
+  font-family: D-DIN;
+  font-size: 1rem;
+  color: #4b4b4b;
+  text-align: center;
+}
+
+.main__shop-creatina {
+  background-color: #f1f2ef;
+}
+
+.product__creatina-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.product__item-creatina1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.product__item-creatina2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.product__item-creatina3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.product__item-creatina4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.product__item-creatina5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.product__item-creatina6 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.creatina__img6 {
+  width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .product__creatina-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .product__creatina-container .product__item-creatina1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .product__creatina-container .product__item-creatina2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .product__creatina-container .product__item-creatina3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .product__creatina-container .product__item-creatina4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .product__creatina-container .product__item-creatina5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .product__creatina-container .product__item-creatina6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+}
+@media screen and (max-width: 576px) {
+  .product__creatina-container {
+    height: 240vh;
+    box-shadow: none;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .product__creatina-container .product__item-creatina1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .product__creatina-container .product__item-creatina2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .product__creatina-container .product__item-creatina3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .product__creatina-container .product__item-creatina4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .product__creatina-container .product__item-creatina5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .product__creatina-container .product__item-creatina6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .product__creatina-container {
+    height: 280vh;
+  }
+}
+@media screen and (max-width: 340px) {
+  .product__creatina-container {
+    height: 350vh;
+  }
+}
+/*FOOTER*/
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+.footer {
+  background-color: #000;
+}
+.footer .footer__container .row .footer__tienda .footer__title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: D-DIN;
+  color: #fff;
+}
+.footer .footer__container .row .footer__tienda .footer__tienda-links .footer__link {
+  font-family: D-DIN;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.footer .footer__container .row .footer__tienda .footer__tienda-links .footer__link:hover {
+  color: #777777;
+}
+.footer .footer__container .row .footer__rutinas .footer__title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: D-DIN;
+  color: #fff;
+}
+.footer .footer__container .row .footer__rutinas .footer__rutinas-enlaces .footer__link {
+  font-family: D-DIN;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.footer .footer__container .row .footer__rutinas .footer__rutinas-enlaces .footer__link:hover {
+  color: #777777;
+}
+.footer .footer__container .row .footer__links-container .footer__title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: D-DIN;
+  color: #fff;
+}
+.footer .footer__container .row .footer__links-container .footer__enlaces .footer__link {
+  font-family: D-DIN;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.footer .footer__container .row .footer__links-container .footer__enlaces .footer__link:hover {
+  color: #777777;
+}
+.footer .footer__container .row .footer__social .footer__title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: D-DIN;
+  color: #fff;
+}
+.footer .footer__container .row .footer__social .footer__img {
+  width: 35px;
+  height: 35px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(53deg) brightness(104%) contrast(101%);
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.footer .footer__author .footer__line {
+  height: 2px;
+  color: #fff;
+}
+.footer .footer__author .footer__copyright {
+  font-family: D-DIN;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

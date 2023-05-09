@@ -1,0 +1,73 @@
+@import '../base/variables';
+
+
+/*ICONO NAV BAR BLANCO*/
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/*NAV BAR NEGRO*/
+.navbar__color{
+    background-color: $color-secondary;
+}
+
+#nav__link-inicio{
+    color: $color-primary;
+    font-family: $font-primary-bold;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+}
+.nav__effect::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    width: 0%;
+    background-color: $color-primary;
+    height: 1px;
+    transition-duration: 0.5s;
+}
+.nav__effect:hover::after{
+    width: 100%;
+}
+
+
+/*BLANCO*/
+#nav__white{
+    color: $color-secondary;
+    font-family: $font-primary-bold;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+}
+/*ICONO NAV-BAR-NEGRO*/
+#navbar__white-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+/*EFECTO*/
+.nav__white-link::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 7px;
+width: 0%;
+height: 1px;
+background-color: $color-secondary;
+transition-duration: 0.5s;
+}
+
+.nav__white-link:hover::after{
+    width: 100%;
+}

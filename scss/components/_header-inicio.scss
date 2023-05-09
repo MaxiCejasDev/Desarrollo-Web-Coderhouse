@@ -1,0 +1,56 @@
+@import '../base/variables';
+@import '../base/listas';
+
+
+
+.header__inicio {
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.4),
+        rgba(0,0,0,.4)
+    ), url(../assets/inicio/inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .hero__inicio{
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $color-primary;
+        .hero__inicio-container{
+            .row{
+                .col-12{
+                    .hero__inicio-title{
+                        font-size: nth($size, 7);
+                        font-family: $font-primary-bold;
+                        text-align: center;
+                    }
+                    .hero__inicio-eslogan{
+                        font-family: $font-primary;
+                        font-weight: nth($size, 1);
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .row__header-inicio{
+            position: absolute;
+            bottom: -70px;
+            animation-name: row;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            filter: $img-filter;
+            @keyframes row{
+                0%{bottom: -70px;}
+                50%{bottom: -100px;}
+                100%{bottom: -70px;}
+            }
+        }
+    }
+}

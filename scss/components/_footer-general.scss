@@ -1,0 +1,94 @@
+@import '../base/variables';
+@import '../base/listas';
+
+
+
+.footer{
+    background-color: $color-secondary;
+    .footer__container{
+        .row{
+            .footer__tienda{
+                .footer__title{
+                    font-size: nth($size, 3);
+                    font-weight: bold;
+                    font-family: $font-primary;
+                    color: $color-primary;
+                }
+                .footer__tienda-links{
+                    .footer__link{
+                        font-family: $font-primary;
+                        font-size: nth($size, 2);
+                        color: $color-primary;
+                        text-decoration: none;
+                        &:hover{
+                            color: #777777;
+                        }
+                    }
+                }
+            }
+            .footer__rutinas{
+                .footer__title{
+                    font-size: nth($size, 3);
+                    font-weight: bold;
+                    font-family: $font-primary;
+                    color: $color-primary;
+                }
+                .footer__rutinas-enlaces{
+                    .footer__link{
+                        font-family: $font-primary;
+                    font-size: nth($size, 2);
+                    color: $color-primary;
+                    text-decoration: none;
+                    &:hover{
+                        color: #777777;
+                    }
+                    }
+                }
+            }
+            .footer__links-container{
+                .footer__title{
+                    font-size: nth($size, 3);
+                    font-weight: bold;
+                    font-family: $font-primary;
+                    color: $color-primary;
+                }
+                .footer__enlaces{
+                    .footer__link{
+                        font-family: $font-primary;
+                        font-size: nth($size, 2);
+                        color: $color-primary;
+                        text-decoration: none;
+                        &:hover{
+                            color: #777777;
+                        }
+                    }
+                }
+            }
+            .footer__social{
+                .footer__title{
+                    font-size: nth($size, 3);
+                    font-weight: bold;
+                    font-family: $font-primary;
+                    color: $color-primary;
+                }
+                .footer__img{
+                    width: 35px;
+                    height: 35px;
+                    filter: $img-filter;
+                    margin-top: 5px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .footer__author{
+        .footer__line{
+            height: 2px;
+            color: $color-primary;
+        }
+        .footer__copyright{
+            font-family: $font-primary;
+            color: $color-primary;
+        }
+    }
+}

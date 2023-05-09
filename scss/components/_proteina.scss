@@ -1,0 +1,172 @@
+@import '../base/variables';
+@import '../base/listas';
+
+/*Extend*/
+@import '../base/extend';
+
+
+
+.main__shop-proteina{
+    background-color: $bg-color;
+}
+.product__proteina-container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-gap: 10px;
+                overflow: hidden;
+                width: 100%;
+                height: 100vh;
+}
+.product__item-proteina1{
+    @extend %product;
+}
+.product__item-proteina2{
+    @extend %product;
+}
+.product__item-proteina3{
+    @extend %product;
+}
+.product__item-proteina4{
+    @extend %product;
+}
+.product__item-proteina5{
+    @extend %product;
+}
+.product__item-proteina6{
+    @extend %product;
+}
+.proteina__img-container1{
+    @extend %img-container;
+}
+.proteina__img-container2{
+    @extend %img-container;
+}
+.proteina__img-container3{
+    @extend %img-container;
+}
+.proteina__img-container4{
+    @extend %img-container;
+}
+.proteina__img-container5{
+    @extend %img-container;
+}
+.proteina__img-container6{
+    @extend %img-container;
+}
+.proteina__img1{
+    @extend %img-tienda;
+}
+.proteina__img2{
+    @extend %img-tienda;
+}
+.proteina__img3{
+    @extend %img-tienda;
+}
+.proteina__img4{
+    @extend %img-tienda;
+}
+.proteina__img5{
+    @extend %img-tienda;
+}
+.proteina__img6{
+    @extend %img-tienda;
+}
+.proteina__text1{
+    @extend %text-product;
+}
+.proteina__text2{
+    @extend %text-product;
+}
+.proteina__text3{
+    @extend %text-product;
+}
+.proteina__text4{
+    @extend %text-product;
+}
+.proteina__text5{
+    @extend %text-product;
+}
+.proteina__text6{
+    @extend %text-product;
+}
+
+@media screen and (max-width: $breakpoint-md){
+        .product__proteina-container{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            .product__item-proteina1{
+                        grid-column: 1 / 2;
+                        grid-row: 1 / 2;
+            }
+            .product__item-proteina2{
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+            }
+            .product__item-proteina3{
+                grid-column: 1 / 2;
+                grid-row: 2 / 3;
+            }
+            .product__item-proteina4{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
+            .product__item-proteina5{
+                grid-column: 1 / 2;
+                        grid-row: 3 / 4;
+            }
+            .product__item-proteina6{
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+            }
+        }
+}
+@media screen and (max-width: $breakpoint-sm){
+            .product__proteina-container{
+                height: 240vh;
+                box-shadow: none;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(6, 1fr);
+                .product__item-proteina1{
+                    grid-column: 1 / 2;
+                    grid-row: 1 / 2;
+                }
+                .product__item-proteina2{
+                    grid-column: 1 / 2;
+                    grid-row: 2 / 3;
+                }
+                .product__item-proteina3{
+                    grid-column: 1 / 2;
+                    grid-row: 3 / 4;
+                }
+                .product__item-proteina4{
+                    grid-column: 1 / 2;
+                    grid-row: 4 / 5;
+                }
+                .product__item-proteina5{
+                    grid-column: 1 / 2;
+                    grid-row: 5 / 6;
+                }
+                .product__item-proteina6{
+                    grid-column: 1 / 2;
+                    grid-row: 6 / 7;
+                }
+            }
+        }
+@media screen and (min-width: 350px) and (max-width: 380px){
+            .product__proteina-container{
+                height: 280vh;
+            }
+        }
+@media screen and (max-width: 340px){
+                .product__proteina-container{
+                    height: 350vh;
+                }
+            }
+
+
+
+
+
+
+

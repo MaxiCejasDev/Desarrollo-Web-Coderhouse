@@ -1,0 +1,87 @@
+@import '../base/variables';
+@import '../base/listas';
+
+
+
+.main__metodo{
+    background-color: $bg-color;
+    .main__metodo-info--container{
+        .main__metodo-info{
+            padding-top: 50px;
+            color: $color-secondary;
+            min-height: 220px;
+            border-bottom: 4px solid $color-secondary;
+            .metodo__info1{
+                .main__metodo-info--subtitle{
+                    font-family: $font-primary-bold;
+                    font-size: nth($size, 5);
+                    text-align: center;
+                }
+            }
+            .metodo__info2{
+                .main__metodo-info--paragraph{
+                    font-size: nth($size, 2);
+                    text-align: center;
+                    font-family: $font-primary;
+                }
+            }
+        }
+    }
+    .main__metodo-container{
+        color: $color-secondary;
+        .main__metodo-principio1{
+            border-bottom: 3px solid $color-secondary;
+            .principio__text-container1{
+                .main__metodo-title{
+                    font-family: $font-primary-bold;
+                    text-align: center;
+                    font-size: nth($size, 4);
+                }
+                .main__metodo-paragraph{
+                    font-family: $font-primary;
+                    text-align: center;
+                    font-size: nth($size, 2);
+                }
+            }
+            .principio__img-container1{
+                .img__fluid{}
+            }
+        }
+        .main__metodo-principio2{
+            border-bottom: 3px solid $color-secondary;
+            .principio__img-container2{
+                .img-fluid{}
+            }
+            .principio__text-container2{
+                .main__metodo-title{
+                    font-family: $font-primary-bold;
+                    text-align: center;
+                    font-size: nth($size, 4);
+                }
+                .main__metodo-paragraph{
+                    font-family: $font-primary;
+                    text-align: center;
+                    font-size: nth($size, 2);
+                }
+            }
+        }
+        .main__metodo-principio3{
+            border-bottom: 3px solid $color-secondary;
+            .principio__text-container3{
+                .main__metodo-title{
+                    font-family: $font-primary-bold;
+                    text-align: center;
+                    font-size: nth($size, 4);
+                }
+                .main__metodo-paragraph{
+                    font-family: $font-primary;
+                    text-align: center;
+                    font-size: nth($size, 2);
+                }
+            }
+            .principio__img-container3{
+                .img-fluid{}
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import 'fonts';
+
+/*FUENTES*/
+$font-primary: D-DIN;
+$font-primary-bold: D-DIN-Bold;
+
+/*COLORES*/
+$color-primary: #fff;
+$color-secondary: #000;
+$bg-color: #f1f2ef;
+
+/*FILTRO IMAGEN*/
+$img-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(53deg) brightness(104%) contrast(101%);
+
+// MEDIA QUERIES
+$breakpoint-xs-mobile: 280px;
+$breakpoint-sm-mobile: 320px;
+$breakpoint-md-mobile: 390px;
+$breakpoint-xs: 428px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;

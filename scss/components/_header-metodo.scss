@@ -1,0 +1,88 @@
+@import '../base/variables';
+@import '../base/listas';
+
+
+
+.header__metodo{
+    background-color: $bg-color;
+    .hero__container{
+        .container{
+            .row{
+                .hero__metodo1{
+                    .hero__metodo-title{
+                        font-size: 2.5rem;
+                        font-family: $font-primary-bold;
+                    }
+                    .hero__metodo-subtitle{
+                        font-size: 1.1rem;
+                        font-family: $font-primary;
+                    }
+                    .cta{
+                        .hero__button-uno{
+                            font-family: $font-primary-bold;
+                            padding: 10px 20px;
+                            text-decoration: none;
+                            box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.65);
+                            background-color: $color-secondary;
+                            color: $color-primary;
+                            &:hover{
+                                background-color: $color-primary;
+                                color: $color-secondary;
+                                border: 1px solid $color-secondary;
+                            }
+                        }
+                        .hero__button-dos{
+                            font-family: $font-primary-bold;
+                            padding: 10px 20px;
+                            text-decoration: none;
+                            box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.65);
+                            background-color: $color-primary;
+                            color: $color-secondary;
+                            border: 1px solid $color-secondary;
+                            &:hover{
+                                background-color: $color-secondary;
+                                color: $color-primary;
+                            }
+                        }
+                    }
+                    .hero__icon-container{
+                        .hero__icon1{
+                            .fa-dumbbell{
+                                font-size: 40px;
+                            }
+                            .hero__icon-subtitle{
+                                font-family: $font-primary-bold;
+                                font-size: nth($size, 1);
+                            }
+                        }
+                        .hero__icon2{
+                            .fa-person-walking{
+                                font-size: 40px;
+                            }
+                            .hero__icon-subtitle{
+                                font-family: $font-primary-bold;
+                                font-size: nth($size, 1);
+                            }
+                        }
+                        .hero__icon3{
+                            .fa-heart-pulse{
+                                font-size: 40px;
+                            }
+                            .hero__icon-subtitle{
+                                font-family: $font-primary-bold;
+                                font-size: nth($size, 1);
+                            }
+                        }
+                    }
+                }
+                .hero__metodo2{
+                    .hero__metodo-img{
+                        height: 500px;
+                        object-fit: cover;
+                        box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.65);
+                    }
+                }
+            }
+        }
+    }
+}

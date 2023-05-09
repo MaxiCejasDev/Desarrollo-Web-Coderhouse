@@ -1,0 +1,172 @@
+@import '../base/variables';
+@import '../base/listas';
+
+
+.header__contact{
+    background-color: $bg-color;
+    .hero__contact{
+        .form__container{
+            display: flex;
+            justify-content: center;
+            .img__form-container{
+                height: 500px;
+                overflow: hidden;
+                padding: 0;
+                box-shadow: -4px 1px 10px 1px rgba(0,0,0,0.34);
+                .img__form{
+                    object-fit: cover;
+                    height: 500px;
+                    width: 100%;
+                }
+            }
+            .form{
+                box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.65);
+                height: 500px;
+                .form__logo-container{
+                    display: flex;
+                    justify-content: center;
+                }
+                .form__input-container1{
+                    display: flex;
+                    justify-content: center;
+                    .form__input{
+                        width: 80%;
+                        height: 50px;
+                        border: 2px solid $color-secondary;
+                        font-family: $font-primary;
+                        color: $color-secondary;
+                        padding-left: 10px;
+                        font-size: nth($size, 2);
+                        box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.65);
+                        &::placeholder{
+                            color: $color-secondary;
+                        }
+                    }
+                }
+                .form__input-container2{
+                    display: flex;
+                    justify-content: center;
+                    .form__input{
+                        width: 80%;
+                        height: 50px;
+                        border: 2px solid $color-secondary;
+                        font-family: $font-primary;
+                        color: $color-secondary;
+                        padding-left: 10px;
+                        font-size: nth($size, 2);
+                        box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.65);
+                        &::placeholder{
+                            color: $color-secondary;
+                        }
+                    }
+                }
+                .form__input-container3{
+                    display: flex;
+                    justify-content: center;
+                    .form__input{
+                        width: 80%;
+                        height: 50px;
+                        border: 2px solid $color-secondary;
+                        font-family: $font-primary;
+                        color: $color-secondary;
+                        padding-left: 10px;
+                        font-size: nth($size, 2);
+                        box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.65);
+                        &::placeholder{
+                            color: $color-secondary;
+                        }
+                    }
+                }
+                .dropdown__container{
+                    .dropdown{
+                        font-family: $font-primary-bold;
+                        font-size: nth($size, 2);
+                        box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.65);
+                    }
+                }
+                .form__button-container{
+                    display: flex;
+                    justify-content: center;
+                    .form__button{
+                        padding: 10px 80px;
+                        font-family: $font-primary-bold;
+                        color: $color-primary;
+                        font-size: nth($size, 3);
+                        background-color: $color-secondary;
+                        border: none;
+                        transition: 0.6s;
+                        box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.65);
+                        &:hover{
+                            background-color: $color-primary;
+                            border: 1px solid $color-secondary;
+                            color: $color-secondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: $breakpoint-md) {
+        .hero__contact{
+            .form__container{
+                .img__form-container{
+                    display: none
+                }
+                .form{
+                    border: 1px solid $color-secondary;
+                    .form__button-container{
+                        .form__button{
+                            padding: 10px 60px;
+                        }   
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: $breakpoint-sm){
+        .hero__contact{
+            .form__container{
+                .form{
+                    .form__input-container1{
+                        .form__input{
+                            font-size: nth($size, 1);
+                        }
+                    }
+                    .form__input-container2{
+                        .form__input{
+                            font-size: nth($size, 1);
+                        }
+                    }
+                    .form__input-container3{
+                        .form__input{
+                            font-size: nth($size, 1);
+                        }
+                    }
+                    .dropdown__container{
+                        .dropdown{
+                            font-size: nth($size, 1);
+                        }
+                    }
+                    .form__button-container{
+                        .form__button{
+                            padding: 10px 30px;
+                            font-size: nth($size, 2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: $breakpoint-sm){
+        .hero__contact{
+            .form__container{
+            }
+        }
+    }
+    @media screen and (max-width: $breakpoint-sm-mobile){
+        .hero__contact{
+            .form__container{
+            }
+        }
+    }
+}
