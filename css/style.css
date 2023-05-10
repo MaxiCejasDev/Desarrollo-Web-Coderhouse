@@ -337,7 +337,6 @@
   font-family: D-DIN-Bold;
   padding: 10px 20px;
   text-decoration: none;
-  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
   background-color: #000;
   color: #fff;
 }
@@ -350,7 +349,6 @@
   font-family: D-DIN-Bold;
   padding: 10px 20px;
   text-decoration: none;
-  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
   background-color: #fff;
   color: #000;
   border: 1px solid #000;
@@ -383,7 +381,6 @@
 .header__metodo .hero__container .container .row .hero__metodo2 .hero__metodo-img {
   height: 500px;
   object-fit: cover;
-  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
 }
 
 @font-face {
@@ -1218,7 +1215,6 @@
   max-width: 100%;
   border-radius: 50px;
   object-fit: cover;
-  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
 }
 .main__inicio .about__container .about .about__uno-text .about__text1 {
   color: #000;
@@ -1297,7 +1293,6 @@
   max-width: 100%;
   border-radius: 50px;
   object-fit: cover;
-  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.65);
 }
 
 @font-face {
