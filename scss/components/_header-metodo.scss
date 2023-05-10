@@ -14,7 +14,7 @@
                         font-family: $font-primary-bold;
                     }
                     .hero__metodo-subtitle{
-                        font-size: 1.1rem;
+                        font-size: nth($size, 2);
                         font-family: $font-primary;
                     }
                     .cta{

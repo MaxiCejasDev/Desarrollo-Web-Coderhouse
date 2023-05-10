@@ -43,15 +43,9 @@
                     font-size: nth($size, 2);
                 }
             }
-            .principio__img-container1{
-                .img__fluid{}
-            }
         }
         .main__metodo-principio2{
             border-bottom: 3px solid $color-secondary;
-            .principio__img-container2{
-                .img-fluid{}
-            }
             .principio__text-container2{
                 .main__metodo-title{
                     font-family: $font-primary-bold;
@@ -78,9 +72,6 @@
                     text-align: center;
                     font-size: nth($size, 2);
                 }
-            }
-            .principio__img-container3{
-                .img-fluid{}
             }
         }
     }

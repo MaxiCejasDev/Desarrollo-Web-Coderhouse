@@ -82,21 +82,21 @@
             .grid__funcional-item2{
                 .plan__title{
                     font-family: $font-primary-bold;
-                    font-size: 2rem;
+                    font-size: nth($size, 5);
                     text-align: center;
                 }
                 .plan__price{
                     font-family: $font-primary-bold;
                     font-size: 1.3rem;
-                    color: #ff0000;
+                    color: #5126ff;
                 }
                 .plan__description{
                     font-family: $font-primary-bold;
-                    font-size: 1rem;
+                    font-size: nth($size, 2);
                 }
                 .plan__text{
                     font-family: $font-primary;
-                    font-size: 1rem;
+                    font-size: nth($size, 2);
                 }
                 .plan__button-container{
                     width: 100%;
@@ -108,7 +108,7 @@
                         color: $color-primary;
                         font-family: $font-primary-bold;
                         text-decoration: none;
-                        font-size: 1.3rem; 
+                        font-size: nth($size, 3); 
                         transition: 0.5s;
                         &:hover{
                             background-color: $color-primary;
@@ -135,7 +135,7 @@
                 .beneficios__title{
                     text-align: center;
                     font-family: $font-primary-bold;
-                    font-size: 2rem;
+                    font-size: nth($size, 5);
                 }
             }
             .beneficios__funcional-item2{
@@ -152,7 +152,7 @@
                     text-align: center;
                     .beneficios__text{
                         font-family: $font-primary-bold;
-                        font-size: 1rem;
+                        font-size: nth($size, 2);
                     }
                 }
                 .beneficios__funcional2{
@@ -174,7 +174,7 @@
                     text-align: center;
                     .beneficios__text{
                         font-family: $font-primary-bold;
-                        font-size: 1rem;
+                        font-size: nth($size, 2);
                     }
                 }
             }
@@ -197,21 +197,21 @@
             .grid__hipertrofia-item2{
                 .plan__title{
                     font-family: $font-primary-bold;
-                    font-size: 2rem;
+                    font-size: nth($size, 5);
                     text-align: center;
                 }
                 .plan__price{
                     font-family: $font-primary-bold;
-                    font-size: 1.3rem;
-                    color: #ff0000;
+                    font-size: nth($size, 3);
+                    color: #5126ff;
                 }
                 .plan__description{
                     font-family: $font-primary-bold;
-                    font-size: 1rem;
+                    font-size: nth($size, 2);
                 }
                 .plan__text{
                     font-family: $font-primary;
-                    font-size: 1rem;
+                    font-size: nth($size, 2);
                 }
                 .plan__button-container{
                     width: 100%;
@@ -223,7 +223,7 @@
                         color: $color-primary;
                         font-family: $font-primary-bold;
                         text-decoration: none;
-                        font-size: 1.3rem; 
+                        font-size: nth($size, 3); 
                         transition: 0.5s;
                         &:hover{
                             background-color: $color-primary;
@@ -250,7 +250,7 @@
                 .beneficios__title{
                     text-align: center;
                     font-family: $font-primary-bold;
-                    font-size: 2rem;
+                    font-size: nth($size, 5);
                 }
             }
             .beneficios__hipertrofia-item2{
@@ -267,7 +267,7 @@
                     text-align: center;
                     .beneficios__text{
                         font-family: $font-primary-bold;
-                        font-size: 1rem;
+                        font-size: nth($size, 2);
                     }
                 }
                 .beneficios__hipertrofia2{
@@ -278,7 +278,7 @@
                     text-align: center;
                     .beneficios__text{
                         font-family: $font-primary-bold;
-                        font-size: 1rem;
+                        font-size: nth($size, 2);
                     }
                 }
                 .beneficios__hipertrofia3{
@@ -289,7 +289,7 @@
                     text-align: center;
                     .beneficios__text{
                         font-family: $font-primary-bold;
-                        font-size: 1rem;
+                        font-size: nth($size, 2);
                     }
                 }
             }
@@ -312,21 +312,21 @@
             .grid__power-item2{
                 .plan__title{
                     font-family: $font-primary-bold;
-                    font-size: 2rem;
+                    font-size: nth($size, 5);
                     text-align: center;
                 }
                 .plan__price{
                     font-family: $font-primary-bold;
-                    font-size: 1.3rem;
-                    color: #ff0000;
+                    font-size: nth($size, 3);
+                    color: #5126ff;
                 }
                 .plan__description{
                     font-family: $font-primary-bold;
-                    font-size: 1rem;
+                    font-size: nth($size, 2);
                 }
                 .plan__text{
                     font-family: $font-primary;
-                    font-size: 1rem;
+                    font-size: nth($size, 2);
                 }
                 .plan__button-container{
                     width: 100%;
@@ -338,7 +338,7 @@
                         color: $color-primary;
                         font-family: $font-primary-bold;
                         text-decoration: none;
-                        font-size: 1.3rem;   
+                        font-size: nth($size, 3);   
                         transition: 0.5s;
                         &:hover{
                             background-color: $color-primary;
@@ -365,7 +365,7 @@
                 .beneficios__title{
                     text-align: center;
                     font-family: $font-primary-bold;
-                    font-size: 2rem;
+                    font-size: nth($size, 5);
                 }
             }
             .beneficios__power-item2{

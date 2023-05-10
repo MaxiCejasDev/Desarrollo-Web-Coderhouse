@@ -330,7 +330,7 @@
   font-family: D-DIN-Bold;
 }
 .header__metodo .hero__container .container .row .hero__metodo1 .hero__metodo-subtitle {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: D-DIN;
 }
 .header__metodo .hero__container .container .row .hero__metodo1 .cta .hero__button-uno {
@@ -717,7 +717,7 @@
 .asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__price {
   font-family: D-DIN-Bold;
   font-size: 1.3rem;
-  color: #ff0000;
+  color: #5126ff;
 }
 .asesoria__main .plan__container .funcional__container .grid__funcional .grid__funcional-item2 .plan__description {
   font-family: D-DIN-Bold;
@@ -828,7 +828,7 @@
 .asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__price {
   font-family: D-DIN-Bold;
   font-size: 1.3rem;
-  color: #ff0000;
+  color: #5126ff;
 }
 .asesoria__main .plan__container .hipertrofia__container .grid__hipertrofia .grid__hipertrofia-item2 .plan__description {
   font-family: D-DIN-Bold;
@@ -939,7 +939,7 @@
 .asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__price {
   font-family: D-DIN-Bold;
   font-size: 1.3rem;
-  color: #ff0000;
+  color: #5126ff;
 }
 .asesoria__main .plan__container .power__container .grid__power .grid__power-item2 .plan__description {
   font-family: D-DIN-Bold;
@@ -1372,6 +1372,7 @@
   text-align: center;
   font-size: 1rem;
 }
+
 @font-face {
   font-family: D-DIN;
   src: url(../fonts/D-DIN.otf);
