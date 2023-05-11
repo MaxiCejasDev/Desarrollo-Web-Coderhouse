@@ -5,9 +5,11 @@
 
 
 .asesoria__main{
+    padding-top: 100px;
     background-color: $bg-color;
     .asesoria__info{
         .asesoria__info-items--container{
+            background-color: #D9D9D9;
             .asesoria__info-item1{
                 .asesoria__info-img{
                     width: 100px;
@@ -88,7 +90,7 @@
                 .plan__price{
                     font-family: $font-primary-bold;
                     font-size: 1.3rem;
-                    color: #5126ff;
+                    color: #367CFF;
                 }
                 .plan__description{
                     font-family: $font-primary-bold;
@@ -203,7 +205,7 @@
                 .plan__price{
                     font-family: $font-primary-bold;
                     font-size: nth($size, 3);
-                    color: #5126ff;
+                    color: #367CFF;
                 }
                 .plan__description{
                     font-family: $font-primary-bold;
@@ -318,7 +320,7 @@
                 .plan__price{
                     font-family: $font-primary-bold;
                     font-size: nth($size, 3);
-                    color: #5126ff;
+                    color: #367CFF;
                 }
                 .plan__description{
                     font-family: $font-primary-bold;
@@ -411,6 +413,7 @@
         }
     }
     @media screen and (max-width: $breakpoint-lg) {
+        padding-top: 50px;
         .funcional__container{
             .grid__funcional{
                 grid-template-columns: 1fr;

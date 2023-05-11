@@ -2,29 +2,78 @@
 @import '../base/listas';
 
 
-
 .header__asesoria{
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,.5),
-        rgba(0,0,0,.5)
-    ), url(../assets/asesoria/asesoria.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-color: $bg-color;
+  padding-bottom: 100px;
     .hero__asesoria{
-        .container-fluid{
-            .hero__asesoria-text--container{
-              height: 70vh;
-                  .col-12{
-                    .hero__asesoria-title{
-                      font-size: nth($size, 7);
-                      color: $color-primary;
-                      font-family: $font-primary-bold;
-                      text-align: center;
-                    }  
-                  }
-                } 
+      .container{
+        .row{
+          .hero__asesoria-text--container{
+            .hero__asesoria-title{
+              font-family: $font-primary;
+              font-size: nth($size, 6);
             }
+            .hero__asesoria-paragraph{
+              font-family: $font-primary;
+              font-size: nth($size, 4);
+            }
+            .hero__asesoria-button--container{
+                .hero__asesoria-button1{
+                  background-color: $color-primary;
+                  color: $color-secondary;
+                  font-family: $font-primary-bold;
+                  text-decoration: none;
+                  border: 3px solid $color-secondary;
+                  padding: 10px 20px;
+                  &:hover{
+                  padding: 13px 20px;
+                  background-color: $color-secondary;
+                  color: $color-primary;
+                  border: none;
+                  }
+                }
+                .hero__asesoria-button2{
+                  background-color: $color-secondary;
+                  color: $color-primary;
+                  font-family: $font-primary-bold;
+                  text-decoration: none;
+                  border: none;
+                  padding: 13px 20px;
+                  &:hover{
+                  padding: 10px 20px;
+                  color: $color-secondary;
+                  background-color: $color-primary;
+                  border: 3px solid $color-secondary;
+                  }
+                }
+            }
+          }
+          .hero__asesoria-img--container{
+            .hero__asesoria-img{
+              height: 350px;
+              width: 100%;
+            }
+          }
         }
+      }
+    }
+    @media screen and  (max-width: $breakpoint-xs) {
+        .hero__asesoria{
+          .container{
+            .row{
+              .hero__asesoria-text--container{
+                .hero__asesoria-button--container{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-start;
+                  justify-content: flex-start;
+                }
+              }
+            }
+          }
+        }
+    }
 }
+
+
+

@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="../assets/iconos/logo.png" type="image/x-icon">
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--ICONOS-->
+    <script src="https://kit.fontawesome.com/2f4640e6f9.js" crossorigin="anonymous"></script>
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">    
     <!--ANIMACION-->
@@ -28,38 +30,48 @@
 <body>
   <header class="header__asesoria">
         <!--Nav-->
-              <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav mx-auto">
-                      <a class="nav-link nav__effect" id="nav__link-inicio" aria-current="page" href="../index.html">INICIO</a>
-                      <a class="nav-link nav__effect" id="nav__link-inicio" href="tienda.html">TIENDA</a>
-                      <a class="nav-link nav__effect" id="nav__link-inicio" href="metodo.html">METODOLOGIA</a>
-                      <a class="nav-link nav__effect" id="nav__link-inicio" href="asesoria.html">ASESORIA</a>
-                      <a class="nav-link nav__effect" id="nav__link-inicio" href="contacto.html" tabindex="-1">CONTACTO</a>
-                    </div>
-                  </div>
-                </div>
-              </nav> 
-      <!--HERO--> 
-        <section class="hero__asesoria w-100% vh-100">
+        <!--Nav-->
+        <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
-            <div class="row hero__asesoria-text--container">
-                <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-                  <h1 class="hero__asesoria-title">FLEX FIT</h1>
-                </div>
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" id="navbar__white-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mx-auto">
+                <a class="nav-link nav__white-link" id="nav__white" aria-current="page" href="../index.html">INICIO</a>
+                <a class="nav-link nav__white-link" id="nav__white" href="tienda.html">TIENDA</a>
+                <a class="nav-link nav__white-link" id="nav__white" href="metodo.html">METODOLOGIA</a>
+                <a class="nav-link nav__white-link" id="nav__white" href="asesoria.html">ASESORIA</a>
+                <a class="nav-link nav__white-link" id="nav__white" href="contacto.html" tabindex="-1">CONTACTO</a>
+              </div>
             </div>
           </div>
+      </nav>  
+      <!--HERO--> 
+        <section class="hero__asesoria w-100% vh-100%">
+          <div class="container">
+            <div class="row mt-5">
+              <div class="col-md-6 col-sm-12 mt-5 hero__asesoria-text--container">
+                <h1 class="mt-2 hero__asesoria-title">CONVIERTETE EN TU MEJOR VERSION</h1>
+                <p class="mt-2 hero__asesoria-paragraph">Nosotros nos encargamos de darte todas las herramientas.
+                  ¡Empieza hoy mismo!</p>
+                  <div class="hero__asesoria-button--container mt-4">
+                    <a class="mt-2 hero__asesoria-button1" href="asesoria.html#funcional">Ver Programas <i class="fa-solid fa-arrow-down"></i></a>
+                    <a class="mt-2 hero__asesoria-button2" href="asesoria.html#funcional">Inscribirse ahora <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 mt-5 hero__asesoria-img--container">
+                <img class="img-fluid hero__asesoria-img" src="../assets/asesoria/heroasesoria.svg" alt="">
+              </div>
+            </div>
+            </div>
         </section>     
   </header>      
       <!--MAIN-->
       <!--INFO-->
   <main class="asesoria__main">
-    <section class="container pb-5 pt-3 asesoria__info">
+    <section class="container pb-5 pt-5 asesoria__info">
       <div class="row asesoria__info-items--container">
         <div class="asesoria__info-item1 col-md-3  d-flex flex-column justify-content-center align-items-center">
           <img class="mt-3 asesoria__info-img" src="../assets/asesoria/uno.png" alt="Numero uno">
