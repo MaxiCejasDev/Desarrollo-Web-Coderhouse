@@ -1734,6 +1734,13 @@
     height: 350vh;
   }
 }
+@media screen and (max-width: 280px) {
+  .creatina__img6 {
+    height: 230px;
+    width: 250px;
+    object-fit: contain;
+  }
+}
 @font-face {
   font-family: D-DIN;
   src: url(../fonts/D-DIN.otf);
