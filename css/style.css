@@ -1734,9 +1734,9 @@
     height: 350vh;
   }
 }
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 290px) {
   .creatina__img6 {
-    height: 230px;
+    height: 400px;
     width: 250px;
     object-fit: contain;
   }
