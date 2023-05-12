@@ -348,6 +348,7 @@
     font-size: 1rem;
   }
 }
+
 @font-face {
   font-family: D-DIN;
   src: url(../fonts/D-DIN.otf);
@@ -1616,7 +1617,7 @@
   grid-gap: 10px;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
 }
 
 .product__item-creatina1 {
@@ -1656,22 +1657,20 @@
 }
 
 .creatina__img5 {
-  min-height: 250px;
   max-height: 350px;
   width: 250px;
   object-fit: contain;
 }
 
 .creatina__img6 {
-  min-height: 250px;
-  max-height: 320px;
+  max-height: 300px;
   max-width: 250px;
   object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {
   .product__creatina-container {
-    height: 160vh;
+    height: 180vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
@@ -1702,7 +1701,7 @@
 }
 @media screen and (max-width: 576px) {
   .product__creatina-container {
-    height: 300vh;
+    height: 330vh;
     box-shadow: none;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -1734,7 +1733,7 @@
 }
 @media screen and (min-width: 350px) and (max-width: 380px) {
   .product__creatina-container {
-    height: 300vh;
+    height: 330vh;
   }
 }
 @media screen and (max-width: 340px) {
