@@ -88,8 +88,9 @@
     @extend %img-tienda;
 }
 .creatina__img6{
-    @extend %img-tienda;
-    width: 150px;
+    height: 210px;
+    width: 200px;
+    object-fit: contain;
 }
 .creatina__text1{
     @extend %text-product;

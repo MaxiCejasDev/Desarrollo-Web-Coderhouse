@@ -1441,7 +1441,7 @@
   width: 95%;
 }
 
-.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img6, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img6, .proteina__img5, .proteina__img4, .proteina__img3, .proteina__img2, .proteina__img1 {
+.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img6, .proteina__img5, .proteina__img4, .proteina__img3, .proteina__img2, .proteina__img1 {
   width: 200px;
   object-fit: cover;
 }
@@ -1569,7 +1569,7 @@
   width: 95%;
 }
 
-.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img6, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6 {
+.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6 {
   width: 200px;
   object-fit: cover;
 }
@@ -1632,7 +1632,9 @@
 }
 
 .creatina__img6 {
-  width: 150px;
+  height: 210px;
+  width: 200px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {
@@ -1737,7 +1739,7 @@
   width: 95%;
 }
 
-.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6, .creatina__img1, .creatina__img2, .creatina__img3, .creatina__img4, .creatina__img5, .creatina__img6 {
+.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6, .creatina__img1, .creatina__img2, .creatina__img3, .creatina__img4, .creatina__img5 {
   width: 200px;
   object-fit: cover;
 }
