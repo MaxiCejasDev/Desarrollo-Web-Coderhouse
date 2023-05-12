@@ -1,3 +1,4 @@
+/*NAV BAR*/
 @font-face {
   font-family: D-DIN;
   src: url(../fonts/D-DIN.otf);
@@ -7,6 +8,8 @@
   src: url(../fonts/D-DIN-Bold.otf);
 }
 /*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
 /*ICONO NAV BAR BLANCO*/
 * {
   padding: 0;
@@ -1422,7 +1425,7 @@
 /*FILTRO IMAGEN*/
 /*Extend*/
 /*Extend*/
-.product__item-creatina6, .product__item-creatina5, .product__item-creatina4, .product__item-creatina3, .product__item-creatina2, .product__item-creatina1, .product__item-proteina6, .product__item-proteina5, .product__item-proteina4, .product__item-proteina3, .product__item-proteina2, .product__item-proteina1 {
+.product__item-other6, .product__item-other5, .product__item-other4, .product__item-other3, .product__item-other2, .product__item-other1, .product__item-creatina6, .product__item-creatina5, .product__item-creatina4, .product__item-creatina3, .product__item-creatina2, .product__item-creatina1, .product__item-proteina6, .product__item-proteina5, .product__item-proteina4, .product__item-proteina3, .product__item-proteina2, .product__item-proteina1 {
   background-image: radial-gradient(circle at 50% 50%, rgb(215, 215, 215), rgb(255, 255, 255));
   display: flex;
   flex-direction: column;
@@ -1430,7 +1433,7 @@
   justify-content: center;
 }
 
-.creatina__img-container6, .creatina__img-container5, .creatina__img-container4, .creatina__img-container3, .creatina__img-container2, .creatina__img-container1, .proteina__img-container6, .proteina__img-container5, .proteina__img-container4, .proteina__img-container3, .proteina__img-container2, .proteina__img-container1 {
+.product__img-container6, .product__img-container5, .product__img-container4, .product__img-container3, .product__img-container2, .product__img-container1, .creatina__img-container6, .creatina__img-container5, .creatina__img-container4, .creatina__img-container3, .creatina__img-container2, .creatina__img-container1, .proteina__img-container6, .proteina__img-container5, .proteina__img-container4, .proteina__img-container3, .proteina__img-container2, .proteina__img-container1 {
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -1438,12 +1441,12 @@
   width: 95%;
 }
 
-.creatina__img6, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img6, .proteina__img5, .proteina__img4, .proteina__img3, .proteina__img2, .proteina__img1 {
+.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img6, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img6, .proteina__img5, .proteina__img4, .proteina__img3, .proteina__img2, .proteina__img1 {
   width: 200px;
   object-fit: cover;
 }
 
-.creatina__text6, .creatina__text5, .creatina__text4, .creatina__text3, .creatina__text2, .creatina__text1, .proteina__text6, .proteina__text5, .proteina__text4, .proteina__text3, .proteina__text2, .proteina__text1 {
+.product__text6, .product__text5, .product__text4, .product__text3, .product__text2, .product__text1, .creatina__text6, .creatina__text5, .creatina__text4, .creatina__text3, .creatina__text2, .creatina__text1, .proteina__text6, .proteina__text5, .proteina__text4, .proteina__text3, .proteina__text2, .proteina__text1 {
   font-family: D-DIN;
   font-size: 1rem;
   color: #4b4b4b;
@@ -1466,6 +1469,7 @@
 
 @media screen and (max-width: 768px) {
   .product__proteina-container {
+    height: 130vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
@@ -1496,7 +1500,7 @@
 }
 @media screen and (max-width: 576px) {
   .product__proteina-container {
-    height: 240vh;
+    height: 270vh;
     box-shadow: none;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -1549,7 +1553,7 @@
 /*FILTRO IMAGEN*/
 /*Extend*/
 /*Extend*/
-.product__item-creatina6, .product__item-creatina5, .product__item-creatina4, .product__item-creatina3, .product__item-creatina2, .product__item-creatina1, .product__item-proteina1, .product__item-proteina2, .product__item-proteina3, .product__item-proteina4, .product__item-proteina5, .product__item-proteina6 {
+.product__item-other6, .product__item-other5, .product__item-other4, .product__item-other3, .product__item-other2, .product__item-other1, .product__item-creatina6, .product__item-creatina5, .product__item-creatina4, .product__item-creatina3, .product__item-creatina2, .product__item-creatina1, .product__item-proteina1, .product__item-proteina2, .product__item-proteina3, .product__item-proteina4, .product__item-proteina5, .product__item-proteina6 {
   background-image: radial-gradient(circle at 50% 50%, rgb(215, 215, 215), rgb(255, 255, 255));
   display: flex;
   flex-direction: column;
@@ -1557,7 +1561,7 @@
   justify-content: center;
 }
 
-.creatina__img-container6, .creatina__img-container5, .creatina__img-container4, .creatina__img-container3, .creatina__img-container2, .creatina__img-container1, .proteina__img-container1, .proteina__img-container2, .proteina__img-container3, .proteina__img-container4, .proteina__img-container5, .proteina__img-container6 {
+.product__img-container6, .product__img-container5, .product__img-container4, .product__img-container3, .product__img-container2, .product__img-container1, .creatina__img-container6, .creatina__img-container5, .creatina__img-container4, .creatina__img-container3, .creatina__img-container2, .creatina__img-container1, .proteina__img-container1, .proteina__img-container2, .proteina__img-container3, .proteina__img-container4, .proteina__img-container5, .proteina__img-container6 {
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -1565,12 +1569,12 @@
   width: 95%;
 }
 
-.creatina__img6, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6 {
+.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img6, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6 {
   width: 200px;
   object-fit: cover;
 }
 
-.creatina__text6, .creatina__text5, .creatina__text4, .creatina__text3, .creatina__text2, .creatina__text1, .proteina__text1, .proteina__text2, .proteina__text3, .proteina__text4, .proteina__text5, .proteina__text6 {
+.product__text6, .product__text5, .product__text4, .product__text3, .product__text2, .product__text1, .creatina__text6, .creatina__text5, .creatina__text4, .creatina__text3, .creatina__text2, .creatina__text1, .proteina__text1, .proteina__text2, .proteina__text3, .proteina__text4, .proteina__text5, .proteina__text6 {
   font-family: D-DIN;
   font-size: 1rem;
   color: #4b4b4b;
@@ -1594,31 +1598,37 @@
 .product__item-creatina1 {
   grid-column: 1/2;
   grid-row: 1/2;
+  border: 1px solid #000;
 }
 
 .product__item-creatina2 {
   grid-column: 2/3;
   grid-row: 1/2;
+  border: 1px solid #000;
 }
 
 .product__item-creatina3 {
   grid-column: 3/4;
   grid-row: 1/2;
+  border: 1px solid #000;
 }
 
 .product__item-creatina4 {
   grid-column: 1/2;
   grid-row: 2/3;
+  border: 1px solid #000;
 }
 
 .product__item-creatina5 {
   grid-column: 2/3;
   grid-row: 2/3;
+  border: 1px solid #000;
 }
 
 .product__item-creatina6 {
   grid-column: 3/4;
   grid-row: 2/3;
+  border: 1px solid #000;
 }
 
 .creatina__img6 {
@@ -1627,6 +1637,7 @@
 
 @media screen and (max-width: 768px) {
   .product__creatina-container {
+    height: 160vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
@@ -1657,7 +1668,7 @@
 }
 @media screen and (max-width: 576px) {
   .product__creatina-container {
-    height: 240vh;
+    height: 300vh;
     box-shadow: none;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -1689,11 +1700,163 @@
 }
 @media screen and (min-width: 350px) and (max-width: 380px) {
   .product__creatina-container {
-    height: 280vh;
+    height: 300vh;
   }
 }
 @media screen and (max-width: 340px) {
   .product__creatina-container {
+    height: 350vh;
+  }
+}
+@font-face {
+  font-family: D-DIN;
+  src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+  font-family: D-DIN-Bold;
+  src: url(../fonts/D-DIN-Bold.otf);
+}
+/*FUENTES*/
+/*COLORES*/
+/*FILTRO IMAGEN*/
+/*Extend*/
+/*Extend*/
+.product__item-other6, .product__item-other5, .product__item-other4, .product__item-other3, .product__item-other2, .product__item-other1, .product__item-proteina1, .product__item-proteina2, .product__item-proteina3, .product__item-proteina4, .product__item-proteina5, .product__item-proteina6, .product__item-creatina1, .product__item-creatina2, .product__item-creatina3, .product__item-creatina4, .product__item-creatina5, .product__item-creatina6 {
+  background-image: radial-gradient(circle at 50% 50%, rgb(215, 215, 215), rgb(255, 255, 255));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__img-container6, .product__img-container5, .product__img-container4, .product__img-container3, .product__img-container2, .product__img-container1, .proteina__img-container1, .proteina__img-container2, .proteina__img-container3, .proteina__img-container4, .proteina__img-container5, .proteina__img-container6, .creatina__img-container1, .creatina__img-container2, .creatina__img-container3, .creatina__img-container4, .creatina__img-container5, .creatina__img-container6 {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 70%;
+  width: 95%;
+}
+
+.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6, .creatina__img1, .creatina__img2, .creatina__img3, .creatina__img4, .creatina__img5, .creatina__img6 {
+  width: 200px;
+  object-fit: cover;
+}
+
+.product__text6, .product__text5, .product__text4, .product__text3, .product__text2, .product__text1, .proteina__text1, .proteina__text2, .proteina__text3, .proteina__text4, .proteina__text5, .proteina__text6, .creatina__text1, .creatina__text2, .creatina__text3, .creatina__text4, .creatina__text5, .creatina__text6 {
+  font-family: D-DIN;
+  font-size: 1rem;
+  color: #4b4b4b;
+  text-align: center;
+}
+
+.main__shop-other {
+  background-color: #f1f2ef;
+}
+
+.product__other-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.product__item-other1 {
+  border: 1px solid #000;
+}
+
+.product__item-other2 {
+  border: 1px solid #000;
+}
+
+.product__item-other3 {
+  border: 1px solid #000;
+}
+
+.product__item-other4 {
+  border: 1px solid #000;
+}
+
+.product__item-other5 {
+  border: 1px solid #000;
+}
+
+.product__item-other6 {
+  border: 1px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+  .product__other-container {
+    height: 130vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .product__other-container .product__item-other1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .product__other-container .product__item-other2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .product__other-container .product__item-other3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .product__other-container .product__item-other4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .product__other-container .product__item-other5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .product__other-container .product__item-other6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+}
+@media screen and (max-width: 576px) {
+  .product__other-container {
+    height: 270vh;
+    box-shadow: none;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .product__other-container .product__item-other1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .product__other-container .product__item-other2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .product__other-container .product__item-other3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .product__other-container .product__item-other4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .product__other-container .product__item-other5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .product__other-container .product__item-other6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 380px) {
+  .product__other-container {
+    height: 280vh;
+  }
+}
+@media screen and (max-width: 340px) {
+  .product__other-container {
     height: 350vh;
   }
 }
