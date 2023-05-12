@@ -1441,7 +1441,7 @@
   width: 95%;
 }
 
-.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img6, .proteina__img5, .proteina__img4, .proteina__img3, .proteina__img2, .proteina__img1 {
+.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img6, .proteina__img5, .proteina__img4, .proteina__img3, .proteina__img2, .proteina__img1 {
   width: 200px;
   object-fit: cover;
 }
@@ -1593,7 +1593,7 @@
   width: 95%;
 }
 
-.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img5, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6 {
+.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .creatina__img4, .creatina__img3, .creatina__img2, .creatina__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6 {
   width: 200px;
   object-fit: cover;
 }
@@ -1655,9 +1655,17 @@
   border: 1px solid #000;
 }
 
+.creatina__img5 {
+  min-height: 250px;
+  max-height: 350px;
+  width: 250px;
+  object-fit: contain;
+}
+
 .creatina__img6 {
-  height: 210px;
-  width: 200px;
+  min-height: 250px;
+  max-height: 320px;
+  max-width: 250px;
   object-fit: contain;
 }
 
@@ -1734,13 +1742,6 @@
     height: 350vh;
   }
 }
-@media screen and (max-width: 290px) {
-  .creatina__img6 {
-    height: 400px;
-    width: 250px;
-    object-fit: contain;
-  }
-}
 @font-face {
   font-family: D-DIN;
   src: url(../fonts/D-DIN.otf);
@@ -1770,7 +1771,7 @@
   width: 95%;
 }
 
-.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6, .creatina__img1, .creatina__img2, .creatina__img3, .creatina__img4, .creatina__img5 {
+.product__img6, .product__img5, .product__img4, .product__img3, .product__img2, .product__img1, .proteina__img1, .proteina__img2, .proteina__img3, .proteina__img4, .proteina__img5, .proteina__img6, .creatina__img1, .creatina__img2, .creatina__img3, .creatina__img4 {
   width: 200px;
   object-fit: cover;
 }

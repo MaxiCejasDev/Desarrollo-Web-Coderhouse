@@ -85,11 +85,15 @@
     @extend %img-tienda;
 }
 .creatina__img5{
-    @extend %img-tienda;
+    min-height: 250px;
+    max-height: 350px;
+    width: 250px;
+    object-fit: contain;
 }
 .creatina__img6{
-    height: 210px;
-    width: 200px;
+    min-height: 250px;
+    max-height: 320px;
+    max-width: 250px;
     object-fit: contain;
 }
 .creatina__text1{
@@ -186,8 +190,6 @@
             }
 @media screen and (max-width: 290px) {
     .creatina__img6{
-        height: 400px;
-        width: 250px;
-        object-fit: contain;
+
     }
 }
