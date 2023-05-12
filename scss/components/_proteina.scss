@@ -20,21 +20,27 @@
 }
 .product__item-proteina1{
     @extend %product;
+    border: 1px solid $color-secondary;
 }
 .product__item-proteina2{
     @extend %product;
+    border: 1px solid $color-secondary;
 }
 .product__item-proteina3{
     @extend %product;
+    border: 1px solid $color-secondary;
 }
 .product__item-proteina4{
     @extend %product;
+    border: 1px solid $color-secondary;
 }
 .product__item-proteina5{
     @extend %product;
+    border: 1px solid $color-secondary;
 }
 .product__item-proteina6{
     @extend %product;
+    border: 1px solid $color-secondary;
 }
 .proteina__img-container1{
     @extend %img-container;

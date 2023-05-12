@@ -1467,6 +1467,30 @@
   height: 100vh;
 }
 
+.product__item-proteina1 {
+  border: 1px solid #000;
+}
+
+.product__item-proteina2 {
+  border: 1px solid #000;
+}
+
+.product__item-proteina3 {
+  border: 1px solid #000;
+}
+
+.product__item-proteina4 {
+  border: 1px solid #000;
+}
+
+.product__item-proteina5 {
+  border: 1px solid #000;
+}
+
+.product__item-proteina6 {
+  border: 1px solid #000;
+}
+
 @media screen and (max-width: 768px) {
   .product__proteina-container {
     height: 130vh;
