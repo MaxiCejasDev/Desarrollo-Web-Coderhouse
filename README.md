@@ -2,7 +2,7 @@
 <h1 align="center">Hola 👋, Soy Maxi</h1>
 <h3 align="center">Actualmente estoy cursando en Coderhouse</h3>
 
-- 🔭 Este es mi **Proyecto Final en Coderhouse**
+- 🔭 Este es mi **Proyecto Final de Desarrollo web en Coderhouse**
 
 - 🌱En este curso trabaje con **HTML, CSS, SASS, BOOSTRAP.**
 
